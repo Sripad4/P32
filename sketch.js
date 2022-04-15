@@ -22,9 +22,9 @@ function setup(){
 }
 
 function draw(){
-    if(backgroundImg){
+    if(backgroundImg)
         background(backgroundImg);
-    }
+    
 
     Engine.update(engine);
 
